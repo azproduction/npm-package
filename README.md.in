@@ -1,5 +1,4 @@
-{{PackageName}}
-===============
+# {{PackageName}}
 
 Short info about your package.
 
@@ -7,8 +6,7 @@ What does your package.
 
 Which limits has your package.
 
-Installation
-------------
+## Installation
 
 `{{PackageName}}` can be installed using `npm`:
 
@@ -16,24 +14,12 @@ Installation
 npm install {{PackageName}}
 ```
 
-Usage
------
-
-To run `{{PackageName}}`, you can use the following command from the project root:
+## Example
 
 ```
-./node_modules/.bin/{{PackageName}} path[ path[...]]
+var {{PackageName}} = require('{{PackageName}}');
 ```
 
-Example:
-
-```
-var HelloWorld = require('{{PackageName}}').HelloWorld;
-var helloWorld = new HelloWorld();
-console.log(helloWorld.calculate());
-```
-
-Configuration
--------------
+## Configuration
 
 Detailed information about your package configuration.

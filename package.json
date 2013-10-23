@@ -1,8 +1,8 @@
 {
     "author" : "{{FirstName}} {{LastName}} <{{Email}}>",
-    "description" : "Short package description",
+    "description" : "{{PackageDescription}}",
     "name" : "{{PackageName}}",
-    "version" : "0.0.1",
+    "version" : "1.0.0",
     "contributors" : [
         {
             "name": "{{FirstName}} {{LastName}}",
@@ -13,17 +13,15 @@
         "node": ">= 0.8.0"
     },
     "dependencies" : {
-        "commander": "1.2.0"
+
     },
     "devDependencies" : {
         "jshint": "2.1.3",
         "mocha": "1.11.0",
         "jscs": "1.0.0",
         "istanbul": "0.1.39",
+        "chai": "*",
         "mocha-istanbul": "*"
-    },
-    "bin" : {
-        "package-bin" : "./bin/{{PackageName}}"
     },
     "scripts": {
         "test" : "make validate",

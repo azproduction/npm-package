@@ -1,12 +1,11 @@
-npm-package
-===========
+# npm-package
 
 This is an npm package stub.
 
 Creating new package:
 
 ```
-curl https://raw.github.com/enb-make/npm-package/master/install.sh | sh
+curl https://raw.github.com/azproduction/npm-package/master/install.sh | sh
 ```
 
 Includes:
@@ -17,7 +16,7 @@ Includes:
  * Changelog.
  * `jshint` config.
  * `jscs` config.
- * Base CLI implementation.
+ * `csscomb` config.
  * `mocha` testing.
  * Test coverage calculation.
  * Travis integration.

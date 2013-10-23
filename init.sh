@@ -13,6 +13,10 @@ while true; do
             printf "Enter Package Name: "
             read PackageName
 
+            echo
+            printf "Enter Package Description: "
+            read PackageDescription
+
             printf "Enter your First Name: "
             read FirstName
 
@@ -34,6 +38,7 @@ while true; do
 
     echo
     echo "Package Name: $PackageName"
+    echo "Package Description: $PackageDescription"
     echo "First Name: $FirstName"
     echo "Last Name: $LastName"
     echo "Email: $Email"
@@ -48,6 +53,7 @@ function replace_consts {
         echo "$data" |
             sed 's/{{PackageNameUpperUnderscored}}/'"$PackageNameUpperUnderscored"/ |
             sed 's/{{PackageName}}/'"$PackageName"/ |
+            sed 's/{{PackageDescription}}/'"$PackageDescription"/ |
             sed 's/{{FirstName}}/'"$FirstName"/ |
             sed 's/{{LastName}}/'"$LastName"/ |
             sed 's/{{Email}}/'"$Email"/ |
@@ -66,7 +72,7 @@ PackageNameUpperUnderscored=`echo "$PackageName" | tr "[:lower:]-" "[:upper:]_"`
 Year=`date +%Y`
 
 TMP_INPUT_FOLDER="/tmp/`date +%s`-npm-package"
-git clone "https://github.com/enb-make/npm-package.git" "$TMP_INPUT_FOLDER"
+git clone "https://github.com/azproduction/npm-package.git" "$TMP_INPUT_FOLDER"
 rm -Rf "$TMP_INPUT_FOLDER"/*.sh
 mv "$TMP_INPUT_FOLDER"/README.md.in "$TMP_INPUT_FOLDER"/README.md
 
