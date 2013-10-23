@@ -1,4 +1,12 @@
 # {{PackageName}}
+[![NPM version](https://badge.fury.io/js/{{PackageName}}.png)]
+(https://npmjs.org/package/{{PackageName}})
+
+[![Build Status](https://travis-ci.org/{{LoginName}}/{{PackageName}}.png?branch=master)]
+(https://travis-ci.org/{{LoginName}}/{{PackageName}})
+
+[![Coverage Status](https://coveralls.io/repos/{{LoginName}}/{{PackageName}}/badge.png?branch=master)]
+(https://coveralls.io/r/{{LoginName}}/{{PackageName}})
 
 {{PackageDescription}}
 

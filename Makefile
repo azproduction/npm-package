@@ -3,6 +3,7 @@ MOCHA = $(BIN)/mocha
 ISTANBUL = $(BIN)/istanbul
 JSHINT = $(BIN)/jshint
 JSCS = $(BIN)/jscs
+COVERALLS = $(BIN)/coveralls
 
 .PHONY: test
 test:
@@ -22,9 +23,18 @@ lib-cov: clean
 
 .PHONY: coverage
 coverage: lib-cov
-	{{PackageNameUpperUnderscored}}_COVERAGE=1 $(MOCHA) -u bdd --reporter mocha-istanbul
+	{{PackageNameUpperUnderscored}}_COVERAGE=1 $(MOCHA) --reporter mocha-istanbul
 	@echo
 	@echo Open html-report/index.html file in your browser
+
+.PHONY: coveralls
+coveralls: lib-cov
+	@{{PackageNameUpperUnderscored}}COVERAGE=1 ISTANBUL_REPORTERS=lcovonly $(MOCHA) --reporter mocha-istanbul
+	@cat lcov.info | $(COVERALLS)
+	@rm -rf lib-cov lcov.info
+
+.PHONY: travis
+travis: validate coveralls
 
 .PHONY: lint
 lint:

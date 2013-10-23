@@ -25,6 +25,9 @@ while true; do
 
             printf "Enter your Email Address: "
             read Email
+
+            printf "Enter your GitHub login: "
+            read LoginName
             ;;
 
         X)
@@ -56,6 +59,7 @@ function replace_consts {
             sed 's/{{PackageDescription}}/'"$PackageDescription"/ |
             sed 's/{{FirstName}}/'"$FirstName"/ |
             sed 's/{{LastName}}/'"$LastName"/ |
+            sed 's/{{LoginName}}/'"$LoginName"/ |
             sed 's/{{Email}}/'"$Email"/ |
             sed 's/{{Year}}/'"$Year"/
     done
