@@ -99,6 +99,10 @@ npm install
 echo
 echo "NPM packages installed"
 
+npm test
+echo
+echo "NPM packages tested"
+
 echo
 echo "NPM package stub created: $OUTPUT_FOLDER"
 
