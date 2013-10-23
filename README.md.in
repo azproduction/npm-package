@@ -1,10 +1,6 @@
 # {{PackageName}}
 
-Short info about your package.
-
-What does your package.
-
-Which limits has your package.
+{{PackageDescription}}
 
 ## Installation
 
@@ -17,9 +13,5 @@ npm install {{PackageName}}
 ## Example
 
 ```
-var {{PackageName}} = require('{{PackageName}}');
+require('{{PackageName}}');
 ```
-
-## Configuration
-
-Detailed information about your package configuration.
