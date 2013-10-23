@@ -12,6 +12,7 @@ Includes:
 
  * Readme.
  * License.
+ * Authors.
  * Contributing guide.
  * Changelog.
  * `jshint` config.
@@ -20,5 +21,7 @@ Includes:
  * `mocha` testing.
  * Test coverage calculation.
  * Travis integration.
+ * Coverals integration.
  * Base Makefile.
  * Base `.gitignore`/`.npmignore`.
+ * Popular badges: npm, coverals, dependencies.
