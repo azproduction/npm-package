@@ -24,4 +24,4 @@ Includes:
  * Coverals integration.
  * Base Makefile.
  * Base `.gitignore`/`.npmignore`.
- * Popular badges: npm, coverals, dependencies.
+ * Badges for: NPM version, Build Status, Coverage Status, Dependency Status.
