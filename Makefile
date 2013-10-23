@@ -29,7 +29,7 @@ coverage: lib-cov
 
 .PHONY: coveralls
 coveralls: lib-cov
-	@{{PackageNameUpperUnderscored}}COVERAGE=1 ISTANBUL_REPORTERS=lcovonly $(MOCHA) --reporter mocha-istanbul
+	@{{PackageNameUpperUnderscored}}_COVERAGE=1 ISTANBUL_REPORTERS=lcovonly $(MOCHA) --reporter mocha-istanbul
 	@cat lcov.info | $(COVERALLS)
 	@rm -rf lib-cov lcov.info
 

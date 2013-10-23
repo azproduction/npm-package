@@ -26,7 +26,7 @@ while true; do
             printf "Enter your Email Address: "
             read Email
 
-            printf "Enter your GitHub login: "
+            printf "Enter your GitHub Login: "
             read LoginName
             ;;
 
@@ -45,6 +45,7 @@ while true; do
     echo "First Name: $FirstName"
     echo "Last Name: $LastName"
     echo "Email: $Email"
+    echo "GitHub Login: $LoginName"
     echo
     printf "Generate npm package? [Y|N|X] "
     read CONFIRM
