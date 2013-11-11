@@ -22,7 +22,7 @@
         "istanbul": "0.1.39",
         "chai": "*",
         "mocha-istanbul": "*",
-        "coverals": "*"
+        "coveralls": "*"
     },
     "scripts": {
         "test" : "make validate",
