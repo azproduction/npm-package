@@ -21,7 +21,8 @@
         "jscs": "1.0.0",
         "istanbul": "0.1.39",
         "chai": "*",
-        "mocha-istanbul": "*"
+        "mocha-istanbul": "*",
+        "coverals": "*"
     },
     "scripts": {
         "test" : "make validate",
