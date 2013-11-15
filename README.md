@@ -1,6 +1,6 @@
 # npm-package
 
-This is an npm package stub.
+This is an npm package stub. [Еxample of the generation result](https://github.com/azproduction/1css)
 
 Creating new package:
 
