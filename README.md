@@ -5,7 +5,7 @@ This is an npm package stub. [Еxample of the generation result](https://github.
 Creating new package:
 
 ```
-curl https://raw.github.com/azproduction/npm-package/master/install.sh | sh
+curl https://raw.githubusercontent.com/azproduction/npm-package/master/install.sh | sh
 ```
 
 Includes:
