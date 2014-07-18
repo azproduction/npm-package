@@ -17,12 +17,12 @@
 
 `{{PackageName}}` can be installed using `npm`:
 
-```
+```bash
 npm install {{PackageName}}
 ```
 
 ## Example
 
-```
+```js
 require('{{PackageName}}');
 ```
