@@ -4,12 +4,12 @@
 var index = require('..'),
     expect = require('chai').expect;
 
-describe('{{PackageName}}', function() {
-    beforeEach(function() {
+describe('{{PackageName}}', function () {
+    beforeEach(function () {
 
     });
 
-    it('should {{PackageName}}', function() {
+    it('should {{PackageName}}', function () {
         expect(index).to.exist;
     });
 });
