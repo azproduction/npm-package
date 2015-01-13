@@ -1,28 +1,29 @@
 # {{PackageName}}
-[![NPM Version](https://badge.fury.io/js/{{PackageName}}.png)]
-(https://npmjs.org/package/{{PackageName}})
 
-[![Build Status](https://travis-ci.org/{{LoginName}}/{{PackageName}}.png?branch=master)]
-(https://travis-ci.org/{{LoginName}}/{{PackageName}})
-
-[![Coverage Status](https://coveralls.io/repos/{{LoginName}}/{{PackageName}}/badge.png?branch=master)]
-(https://coveralls.io/r/{{LoginName}}/{{PackageName}})
-
-[![Dependency Status](https://gemnasium.com/{{LoginName}}/{{PackageName}}.png)]
-(https://gemnasium.com/{{LoginName}}/{{PackageName}})
+[![NPM version][npm-image]][npm-url]
+[![Build status][travis-image]][travis-url]
+[![Test coverage][coveralls-image]][coveralls-url]
+[![Dependency Status][david-image]][david-url]
+[![License][license-image]][license-url]
+[![Downloads][downloads-image]][downloads-url]
 
 {{PackageDescription}}
-
-## Installation
-
-`{{PackageName}}` can be installed using `npm`:
-
-```bash
-npm install {{PackageName}}
-```
 
 ## Example
 
 ```js
 require('{{PackageName}}');
 ```
+
+[npm-image]: https://img.shields.io/npm/v/{{PackageName}}.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/{{PackageName}}
+[github-tag]: http://img.shields.io/github/tag/{{LoginName}}/{{PackageName}}.svg?style=flat-square
+[github-url]: https://github.com/{{LoginName}}/{{PackageName}}/tags
+[travis-image]: https://img.shields.io/travis/{{LoginName}}/{{PackageName}}.svg?style=flat-square
+[travis-url]: https://travis-ci.org/{{LoginName}}/{{PackageName}}
+[coveralls-image]: https://img.shields.io/coveralls/{{LoginName}}/{{PackageName}}.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/{{LoginName}}/{{PackageName}}
+[david-image]: http://img.shields.io/david/{{LoginName}}/{{PackageName}}.svg?style=flat-square
+[david-url]: https://david-dm.org/{{LoginName}}/{{PackageName}}
+[license-image]: http://img.shields.io/npm/l/{{PackageName}}.svg?style=flat-square
+[license-url]: LICENSE
